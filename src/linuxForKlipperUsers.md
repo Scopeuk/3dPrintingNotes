@@ -4,7 +4,7 @@ Commands are in the format below where command is the name of a command, paramet
 `command parameter_1 parameter_2 parameter_3`
 - All commands are executed in the current folder
 - Commands can take any number of parameters 0 or more which change their behaviour
-	Examples
+	Examples  
 	`ls` lists the current folder the command  is `ls`  
 	`ls /home` lists the /home directory the command  is `ls` again but this time we also have a parameter `/home`  
 	Many commands will take a path or file as a parameter to instruct the command which item to work from, parameters can also modify command behaviour  
