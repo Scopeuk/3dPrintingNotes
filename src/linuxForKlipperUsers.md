@@ -79,14 +79,14 @@ included here are also the comands for moving, copying and renaming files
 `mv out/klipper.bin out/firmware.bin` rename the generated firmware image from klipper.bin to firmware.bin, here the comand is assumed to be running from ~/klipper as this is where the firmware build commands normally run from
 
 # Git
-Git is a version control system, these are likely unfamiliar terms but for most of our usage this means that the git command can be used to make a copy of a folder from a git repository (like the one klipper is held in https://github.com/Klipper3d/klipper) or update the files in a repository we previously copied. The tool will track files it is made aware of and allow for copies of the "repository" or collection of files to be made and for any changes to be kept in sync, this is how updates made through mainsail or fluid work in the background.
+Git is a version control system, these are likely unfamiliar terms but for most of our usage this means that the git command can be used to make a copy of a folder from a git repository (like the one klipper is held in <https://github.com/Klipper3d/klipper>) or update the files in a repository we previously copied. The tool will track files it is made aware of and allow for copies of the "repository" or collection of files to be made and for any changes to be kept in sync, this is how updates made through mainsail or fluid work in the background.
 git is a complex tool and can produce errors or issues which will need different resolutions, this is rare when using commands such as clone or creating and initial installation.
-a "cheat sheet" for many git commands is available at https://training.github.com/downloads/github-git-cheat-sheet/ and full details are available online. Full usage of git is outside of the scope of this documentation.
+a "cheat sheet" for many git commands is available at <https://training.github.com/downloads/github-git-cheat-sheet/> and full details are available online. Full usage of git is outside of the scope of this documentation.
 
 git works like other commands documented above although the first parameter passed to git is normally an instruction for the type of action to be undertaken.
 In the next few sections we explore a few commonly used git commands
 ## git clone
-This command is used to get a copy of a repository held in git a in the current working folder, most commonly this is used to get klipper(https://github.com/Klipper3d/klipper) or KIAUH (https://github.com/dw-0/kiauh) during an initial installation.
+This command is used to get a copy of a repository held in git a in the current working folder, most commonly this is used to get klipper(<https://github.com/Klipper3d/klipper>) or KIAUH (<https://github.com/dw-0/kiauh>) during an initial installation.
 ### Example command
 `git clone https://github.com/dw-0/kiauh.git`  This command breaks down into three parts, `git` the command we want to run `clone` the operation we want to perform and `https://github.com/dw-0/kiauh.git` this tells git clone where to get the files it should clone. This will create a folder with the repository name kiauh (the last bit after / and before .git) in the current working directory. Additional parameters can be passed to the clone command to tweak its behaviour, these are rarely needed in our use case.
 
