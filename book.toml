@@ -7,3 +7,8 @@ title = "Scopeuk's 3d printing notes"
 
 [output.html.search]
 limit-results = 15
+
+[preprocessor.pagetoc]
+[output.html]
+additional-css = ["theme/pagetoc.css"]
+additional-js  = ["theme/pagetoc.js"]
