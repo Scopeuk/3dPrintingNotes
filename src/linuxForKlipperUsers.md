@@ -9,7 +9,7 @@ Commands are in the format below where command is the name of a command, paramet
 	`ls /home` lists the /home directory the command  is `ls` again but this time we also have a parameter `/home`  
 	Many commands will take a path or file as a parameter to instruct the command which item to work from, parameters can also modify command behaviour  
 	`ls -l` the command is `ls` but we give an argument `-l` in this case ls will list extra details  
-	`ls /dev/serial/by-id/*` This is a fairly common command during initial setup for a klipper machine, the command is `ls` and the parameter is `/dev/serial/by-id/*`. `/dev/serial/by-id/*` is a special directory on the linux file system which contains a file for each serial device connected with a name reflecting what the operating system calls it see [Block Devices] (#Block Devices)  
+	`ls /dev/serial/by-id/*` This is a fairly common command during initial setup for a klipper machine, the command is `ls` and the parameter is `/dev/serial/by-id/*`. `/dev/serial/by-id/*` is a special directory on the linux file system which contains a file for each serial device connected with a name reflecting what the operating system calls it see [Block Devices](#block-devices)  
 - Parameters may also be refered to arguments or switches. Switch is normally used for parameters of the form -x or --help which change the command behaviour  
 
 ## Escaping a Running command
@@ -21,7 +21,7 @@ This is of note because whilst ls will list the files in the current directory L
 
 ## Tab Completion
 Whilst using the terminal it is possible to ask for your current command or command part to be finished for you. This is helpful with say long file names where you can type the first two or three letters and then press tab to complete the full name, if there are multiple options hitting tab twice will list all of them.
-This does not work with all commands but does work with almost all [file commands](# Finding your way around the file system) and [service commands](# Services).
+This does not work with all commands but does work with almost all [file commands](#finding-your-way-around-the-file-system) and [service commands](#services).
 
 ## Sudo
 The sudo command is a powerful utility command which is used to perform tasks with elevated permissions, roughly analogous to run as administrator functionality on windows. sudo does not do anything directly but instead runs the command in its parameters under the "root" user, the top level administrator account for a linux machine.
@@ -108,7 +108,7 @@ apt-get works like other commands documented above although the first parameter 
 The command `apt-get update` will update the locally stored index of what tools are available and at what version, it does not make any changes to the installed files
 
 ## apt-get upgrade
-The command `apt-get upgrade` will update the tools installed and tracked by apt-get (including most of the pre-installed applications) to the latest version in the local database (see [apt-get update](#apt-get update) )
+The command `apt-get upgrade` will update the tools installed and tracked by apt-get (including most of the pre-installed applications) to the latest version in the local database (see [apt-get update](#apt-get-update) )
 This command will note upgrade code operating system features
 
 ## apt-get dist-upgrade
