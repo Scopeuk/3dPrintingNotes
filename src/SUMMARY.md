@@ -1,4 +1,4 @@
 # Summary
 [Foreword](foreword.md)
-- [tableOfContents.md](Table of Contents)
+- [Table of Contents](tableOfContents.md)
 - [Linux for klipper users](linuxForKlipperUsers.md)
