@@ -35,6 +35,7 @@ Running `sudo whoami` will return the username root as the command has been run 
 Many commands in guides will chain commands, this is the process of writing a single line which executes multiple commands.
 Most of these depend on the "return value" of the commands as they execute, the finer points of what these means is beyond this guide, for our purposes each command reports if it succeeded or failed and the joins can check this
 there are multiple  ways to do this but the most common are below
+
 | Join | Purpose |
 | ------------ | ------------ |
 | && | if the command before && returns success execute the second command |
@@ -118,6 +119,7 @@ The command `apt-get install` is used to install a new tool or library. install 
 The most frequent question posed by this tool is "installing this tool will require 30MB of disk space, continue?" so it is frequently added in installation guides.
 
 examples
+
 | Command | Meaning |
 | ------------ | ------------ |
 | `sudo apt-get install git` | this will instruct apt that the git tool should be installed |
@@ -164,6 +166,7 @@ A common use case is to stop the klipper service so that a firmware update tool 
 ## General Structure
 `systemctl` commands are generally structured as `systemctl instruction service`
 where 
+
 | Part | Purpose |
 | ------------ | ------------ |
 | instruction | What you wish to do with the service for instance `start` or `stop` |
@@ -171,6 +174,7 @@ where
 
 ## Instructions
 This is an incomplete list of instructions for systemd and only aims to cover the main options in common use.
+
 | Instruction | Purpose |
 | ------------ | ------------ |
 | start | Starts a service which is currently stopped |
