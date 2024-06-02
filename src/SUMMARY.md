@@ -1,3 +1,3 @@
 # Summary
-
-[Linux for klipper users](linuxForKlipperUsers.md)
+[Foreword](foreword.md)
+- [Linux for klipper users](linuxForKlipperUsers.md)
