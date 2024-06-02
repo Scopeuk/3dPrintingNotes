@@ -5,12 +5,12 @@ Commands are in the format below where command is the name of a command, paramet
 - All commands are executed in the current folder
 - Commands can take any number of parameters 0 or more which change their behaviour
 	Examples
-	`ls` lists the current folder the command  is `ls`
-	`ls /home` lists the /home directory the command  is `ls` again but this time we also have a parameter `/home`
-	Many commands will take a path or file as a parameter to instruct the command which item to work from, parameters can also modify command behaviour
-	`ls -l` the command is `ls` but we give an argument `-l` in this case ls will list extra details
-	`ls /dev/serial/by-id/*` This is a fairly common command during initial setup for a klipper machine, the command is `ls` and the parameter is `/dev/serial/by-id/*`. `/dev/serial/by-id/*` is a special directory on the linux file system which contains a file for each serial device connected with a name reflecting what the operating system calls it see [Block Devices] (#Block Devices)
-- Parameters may also be refered to arguments or switches. Switch is normally used for parameters of the form -x or --help which change the command behaviour
+	`ls` lists the current folder the command  is `ls`  
+	`ls /home` lists the /home directory the command  is `ls` again but this time we also have a parameter `/home`  
+	Many commands will take a path or file as a parameter to instruct the command which item to work from, parameters can also modify command behaviour  
+	`ls -l` the command is `ls` but we give an argument `-l` in this case ls will list extra details  
+	`ls /dev/serial/by-id/*` This is a fairly common command during initial setup for a klipper machine, the command is `ls` and the parameter is `/dev/serial/by-id/*`. `/dev/serial/by-id/*` is a special directory on the linux file system which contains a file for each serial device connected with a name reflecting what the operating system calls it see [Block Devices] (#Block Devices)  
+- Parameters may also be refered to arguments or switches. Switch is normally used for parameters of the form -x or --help which change the command behaviour  
 
 ## Escaping a Running command
 In the event you open a command which doesn’t close itself (or runs for a long time) the command can be instructed to stop with the keyboard combination `ctrl + c`
