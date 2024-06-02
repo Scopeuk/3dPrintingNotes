@@ -1,2 +1,9 @@
 [book]
 title = "Scopeuk's 3d printing notes"
+
+[preprocessor.index]
+
+[preprocessor.links]
+
+[output.html.search]
+limit-results = 15
