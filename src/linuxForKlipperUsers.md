@@ -39,7 +39,7 @@ there are multiple  ways to do this but the most common are below
 | Join | Purpose |
 | ------------ | ------------ |
 | && | if the command before && returns success execute the second command |
-| &#124;&#124; |  if the command before && returns failure execute the second command |
+| &#124;&#124; |  if the command before &#124;&#124; returns failure execute the second command |
 | ; | run the command before ; and then run the command after ; unconditionally |
 
 ### Examples
@@ -51,11 +51,11 @@ Most commands supply a help option usually this is `--help` or `-h` as a paramet
 e.g. `ls --help`
 ## Man Command
 `man` is the manual command, man is a command which accesses documentation for other commands, these manual pages can be very verbose and technical but likely include all the detail you could need if doing something unusual
-  Usage example
+Example   
 - `man ls` this will launch the manual tool pointed at the entry for the ls command
 
 # Finding your way around the file system
-Assuming you have found your way into a terminal via ssh or the device its self the following commands should help with moving between folders or identifying where you are
+Assuming you have found your way into a terminal via ssh or the device itself the following commands should help with moving between folders or identifying where you are   
 included here are also the comands for moving, copying and renaming files
 ## Magic symbols
 | Symbol | Meaning |
@@ -74,17 +74,17 @@ included here are also the comands for moving, copying and renaming files
 |mv| move a file from parameter 1 to parameter 2 |
 
 ## common usage
-`cd ..` move up one folder i.e. from /home/me to /home
-`cd ~/klipper` move to the folder called klipper in the users home directory, frequently this is where klipper is installed by most people
-`mv out/klipper.bin out/firmware.bin` rename the generated firmware image from klipper.bin to firmware.bin, here the comand is assumed to be running from ~/klipper as this is where the firmware build commands normally run from
+`cd ..` move up one folder i.e. from /home/me to /home   
+`cd ~/klipper` move to the folder called klipper in the users home directory, frequently this is where klipper is installed by most people   
+`mv out/klipper.bin out/firmware.bin` rename the generated firmware image from klipper.bin to firmware.bin, here the comand is assumed to be running from ~/klipper as this is where the firmware build commands normally run from   
 
 # Git
-Git is a version control system, these are likely unfamiliar terms but for most of our usage this means that the git command can be used to make a copy of a folder from a git repository (like the one klipper is held in <https://github.com/Klipper3d/klipper>) or update the files in a repository we previously copied. The tool will track files it is made aware of and allow for copies of the "repository" or collection of files to be made and for any changes to be kept in sync, this is how updates made through mainsail or fluid work in the background.
-git is a complex tool and can produce errors or issues which will need different resolutions, this is rare when using commands such as clone or creating and initial installation.
-a "cheat sheet" for many git commands is available at <https://training.github.com/downloads/github-git-cheat-sheet/> and full details are available online. Full usage of git is outside of the scope of this documentation.
+Git is a version control system, these are likely unfamiliar terms but for most of our usage this means that the git command can be used to make a copy of a folder from a git repository (like the one klipper is held in <https://github.com/Klipper3d/klipper>) or update the files in a repository we previously copied. The tool will track files it is made aware of and allow for copies of the "repository" or collection of files to be made and for any changes to be kept in sync, this is how updates made through mainsail or fluid work in the background.   
+Git is a complex tool and can produce errors or issues which will need different resolutions, this is rare when using commands such as clone or creating an initial installation.   
+A "cheat sheet" for many git commands is available at <https://training.github.com/downloads/github-git-cheat-sheet/> and full details are available online. Full usage of git is outside of the scope of this documentation.   
 
-git works like other commands documented above although the first parameter passed to git is normally an instruction for the type of action to be undertaken.
-In the next few sections we explore a few commonly used git commands
+The git command works like other commands documented above although the first parameter passed to git is normally an instruction for the type of action to be undertaken.  
+In the next few sections we explore a few commonly used git commands   
 ## git clone
 This command is used to get a copy of a repository held in git a in the current working folder, most commonly this is used to get klipper(<https://github.com/Klipper3d/klipper>) or KIAUH (<https://github.com/dw-0/kiauh>) during an initial installation.
 ### Example command
@@ -97,7 +97,7 @@ This command must be run inside a directory which git created (usually in our ca
 
 
 # installing tools (apt-get)
-the apt and apt-get commands allow for tools and their dependencies to be installed and maintained by the operating system. This can be considered to be a little like an app store in how it behaves
+The apt and apt-get commands allow for tools and their dependencies to be installed and maintained by the operating system. This can be considered to be a little like an app store in how it behaves
 apt and apt-get are two different interfaces to the same tooling, apt is the more modern version but frequently apt-get os called for in example commands.
 we will document apt-get here for this reason.
 all commands in this section will require "admin" permissions to run successfully, this is done by starting the command with the sudo, super user do command see [sudo](#sudo)
