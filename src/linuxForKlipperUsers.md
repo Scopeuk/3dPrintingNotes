@@ -96,7 +96,7 @@ This command must be run inside a directory which git created (usually in our ca
 `git pull` This command breaks down as run git with an instruction to pull the latest version of the parent repository. git will then check for changes between your local files and the parent and try to update the files, in the event there is a conflict (a file modified differently both locally and in the parent repository) git will attempt to resolve the issue or if this fail will ask you what to do. It is rate for klipper users to directly perform this operation and it is more typically invoked via one of the klipper web interfaces like Fluid or Mainsail.
 
 
-# installing tools (apt-get)
+# Installing tools (apt-get)
 The apt and apt-get commands allow for tools and their dependencies to be installed and maintained by the operating system. This can be considered to be a little like an app store in how it behaves
 apt and apt-get are two different interfaces to the same tooling, apt is the more modern version but frequently apt-get os called for in example commands.
 we will document apt-get here for this reason.
