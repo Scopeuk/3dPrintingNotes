@@ -1,6 +1,7 @@
 # Foreword
-first and foremost, this is a work in progress and is incomplete, pull requests and feedback welcome
-
+First and foremost, this is a work in progress and is incomplete, pull requests and feedback welcome.   
+The source repository can be found at <https://github.com/Scopeuk/3dPrintingNotes>   
+   
 This document aims to help a new user understand the commands they are likely to encounter in setup guides or similar, it necessarily skips over some elements of detail and nuance in favour of clarity.
 The intention of this document is not to replace existing guides to instalation or update of klipper, that subject has been covered extensively and well elsewhere.
 This document aims to let someone unfamiliar with linux understand what the commands given in guides do as an aid to trouble shooting and to give confidence.
