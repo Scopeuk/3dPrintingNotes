@@ -1,5 +1,5 @@
 Notes here are focused around setting up boards with Klipper, the process for Marlin is similar but frequently requires translating from device pins to wiring pins, this is not described here.   
-This page links out to a handful of manufacturer pages. These are listed as they are known to be widely used. There is no recommendation for or against anything by inclusion or exclusion from this list. If you have something you would to add raise a PR or issue.
+This page links out to a handful of manufacturer pages. These are listed as they are known to be widely used. There is no recommendation for or against anything by inclusion or exclusion from this list. If you have something you would like to add raise a PR or issue.
 
 # Klipper Repository
 The Klipper repository contains a large set of example configurations, these cover configurations for a large number of printers as well as many common printer control boards.
