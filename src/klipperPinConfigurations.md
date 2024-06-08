@@ -45,13 +45,13 @@ This can also be used on input pins, this is commonly done for "normally open" e
 This section talks about a pull up resistor as this is by far the most common.      
 Think about a common endstop circuit, this has a switch which connects ground to a pin of the micro controler on the printer control board.   
 
-![Circuit Diagram No Pull Up Resistory!](images/WithoutPullUp.svg "Circuit without pullup")   
+![Circuit Diagram No Pull Up Resistory!](Images/WithoutPullUp.svg "Circuit without pullup")   
 
 This switch can make a circuit connecting the pin to ground or it can break the circuit.
 This might seam to give us both on and off, but what we actually have is off (pin connected to ground) and unknown, when there is no circuit there is nothing to make the pin on.   
 The pull up resistor is part of the micro controler on the printer control board which connects the pin to a resistor connected to the on voltage.    
 
-![Circuit Diagram With Pull Up Resistory!](images/WithPullUp.svg "Circuit with pullup")    
+![Circuit Diagram With Pull Up Resistory!](Images/WithPullUp.svg "Circuit with pullup")    
 
 This resistor will mean that when we break the circuit the pin goes to on, but as this is a faily high resistance if we add a low resistance connection to ground (press the switch) the pin will go to off. This gives us our off (switch and circuit connected) and on (switch and circuit disconnected, resistor pulls to on instead).
 
