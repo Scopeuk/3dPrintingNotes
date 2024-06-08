@@ -8,6 +8,10 @@ title = "Scopeuk's 3D Printing Notes"
 [output.html.search]
 limit-results = 15
 
+[output.html]
+git-repository-url = "https://github.com/Scopeuk/3dPrintingNotes"
+site-url = "/3dPrintingNotes/"
+
 [preprocessor.pagetoc]
 [output.html]
 additional-css = ["theme/pagetoc.css"]
