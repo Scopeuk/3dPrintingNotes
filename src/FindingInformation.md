@@ -19,6 +19,9 @@ Mellow
 MakerBase(MKS)   
 <https://github.com/makerbase-mks?tab=repositories>   
 
+FYSETC   
+<https://github.com/orgs/FYSETC/repositories>   
+
 Every manufacturer lays out these repositories differently. Frequently there will be a repository for each board they supply.
 Inside that repository are a series of folders, typically you want to look for a pinout or pin diagram, this will list all of the pin names and what they are connected to.   
 This is frequently but not always to be found in a folder called hardware.   
@@ -30,10 +33,10 @@ Some manufacturers (notably Mellow) also maintain documentation on their own web
 There is no standardisation around how this information is laid out.
 
 Mellow wiki   
-https://mellow.klipper.cn/#/README   
+<https://mellow.klipper.cn/#/README>   
 
 Big Tree wiki   
-https://bttwiki.com/   
+<https://bttwiki.com/>   
 
 # Layout of Pin Diagrams
 These Diagrams frequently consist of a series of tables around a picture or render of the board.
