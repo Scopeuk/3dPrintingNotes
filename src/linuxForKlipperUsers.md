@@ -182,7 +182,7 @@ This is an incomplete list of instructions for systemd and only aims to cover th
 | restart | Stops and then (re)starts a service, this is how reloading klipper configuration files works under the hood |
 | status | Reports if a service is running, provides some limited information if it stoped unexpectedly |
 | enable | changes the default state of the service so that it runs at boot |
-| disable | turns the service off at boot (will require manualy starting) |
+| disable | turns the service off at boot (will require manually starting) |
 
 ## Service Names
 | Service | What it does |
