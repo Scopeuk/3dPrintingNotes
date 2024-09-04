@@ -31,5 +31,5 @@ The bits of interest to us are the threshold and the diag pin name.
 The diag pin must be set to match the layout of the board.    
 The threshold must be tuned per machine, there are many factors which affect this. The name of the threshold variable varies by driver, see Klipper docs.
 
-once the TMC section has been added a new "virtual pin" becomes available within Klipper the name of this is given in the Klipper section but will be similar to "tmc2130_stepper_x:virtual_endstop" where the TMC model number and stepper name with change with the associated section in the configuration.
+Once the TMC section has been added a new "virtual pin" becomes available within Klipper the name of this is given in the Klipper section but will be similar to "tmc2130_stepper_x:virtual_endstop" where the TMC model number and stepper name with change with the associated section in the configuration.
 This new virtual pin can be used as the end stop pin in the normal stepper section for the axis.

@@ -64,7 +64,7 @@ When the pin is not connected this will make the pin go to off.
 Support for pull down resistors is limited. It is much more common to use pull up.
 
 ## Combing Modifiers
-The ! modifier can be combined with either ^ or ~ on an input pin (one taking infomration from the world like and end stop switch).
+The ! modifier can be combined with either ^ or ~ on an input pin (one taking information from the world like an end stop switch).
 adding both ^! or ~! will cause both effects to happen
 
 | Modifier | Effect | 

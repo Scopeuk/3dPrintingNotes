@@ -11,5 +11,6 @@ As part of the shortcuts taken to make this accessible guidance around system co
 # Current Sections
 [Linux For Klipper Users](linuxForKlipperUsers.md)   
 [Finding Information](FindingInformation.md)   
-[Klipper Pin Configurations.md](klipperPinConfigurations.md)   
-[Sensorless Homing.md](sensorlessHoming.md)   
+[Klipper Pin Configurations](klipperPinConfigurations.md)   
+[Sensorless Homing](sensorlessHoming.md)   
+[Additional Useful Links](UsefulLinks.md)   
