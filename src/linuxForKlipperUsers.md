@@ -81,7 +81,7 @@ included here are also the comands for moving, copying and renaming files
 # Git
 Git is a version control system, these are likely unfamiliar terms but for most of our usage this means that the git command can be used to make a copy of a folder from a git repository (like the one klipper is held in <https://github.com/Klipper3d/klipper>) or update the files in a repository we previously copied. The tool will track files it is made aware of and allow for copies of the "repository" or collection of files to be made and for any changes to be kept in sync, this is how updates made through mainsail or fluid work in the background.   
 Git is a complex tool and can produce errors or issues which will need different resolutions, this is rare when using commands such as clone or creating an initial installation.   
-A "cheat sheet" for many git commands is available at <https://training.github.com/downloads/github-git-cheat-sheet/> and full details are available online. Full usage of git is outside of the scope of this documentation.   
+A "cheat sheet" for many git commands is available at <https://training.github.com/downloads/github-git-cheat-sheet/> and full details are available online. One good resource for further reading is <https://glasskube.dev/guides/git/>. Full usage of git is outside of the scope of this documentation.   
 
 The git command works like other commands documented above although the first parameter passed to git is normally an instruction for the type of action to be undertaken.  
 In the next few sections we explore a few commonly used git commands   
