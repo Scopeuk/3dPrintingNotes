@@ -12,5 +12,6 @@ As part of the shortcuts taken to make this accessible guidance around system co
 [Linux For Klipper Users](linuxForKlipperUsers.md)   
 [Finding Information](FindingInformation.md)   
 [Klipper Pin Configurations](klipperPinConfigurations.md)   
+[Reading Klipper Configuration Files](klipperConfigs.md)  
 [Sensorless Homing](sensorlessHoming.md)   
 [Additional Useful Links](UsefulLinks.md)   
