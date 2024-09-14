@@ -1,7 +1,7 @@
 # Getting Started With printer.cfg
 Klipper configuration files can appear to be intimidating at a first attempt. The files however are laid out in sections with each section self-contained. As such the sections can be dealt with one at a time and it is not necessary to understand everything to get started. This is not aimed at walking you through creating a configuration file from scratch but acts a guide to how to read an existing file and file the details of what each section does.
 ## Before We Start
-Changes to your printer.cfg file can stop your printer working, before making anychanges take a backup copy of the file. In the worst case you can always swap back to the backup.
+Changes to your printer.cfg file can stop your printer working, before making any changes take a backup copy of the file. In the worst case you can always swap back to the backup.
 
 ## What is printer.cfg
 printer.cfg is the configuration file Klipper reads when it first starts. This configuration file tells Klipper how your printer is configured. This is how Klipper can tell apart an Ender 3 and a Voron 2.4 (although Klipper really doesn’t care).
