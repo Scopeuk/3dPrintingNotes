@@ -13,5 +13,6 @@ As part of the shortcuts taken to make this accessible guidance around system co
 [Finding Information](FindingInformation.md)   
 [Klipper Pin Configurations](klipperPinConfigurations.md)   
 [Reading Klipper Configuration Files](klipperConfigs.md)  
-[Sensorless Homing](sensorlessHoming.md)   
+[Sensorless Homing](sensorlessHoming.md)  
+[Numpy Errors](NumpyErrors.md)   
 [Additional Useful Links](UsefulLinks.md)   
