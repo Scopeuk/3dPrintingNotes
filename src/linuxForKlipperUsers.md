@@ -125,7 +125,11 @@ examples
 | `sudo apt-get install git` | this will instruct apt that the git tool should be installed |
 | `sudo apt-get install git -y' | this will instruct apt-get that the git tool should be installed and that any prompts to the user should be answered yes automatically |
 
-
+## apt vs apt-get
+apt is the replacement for apt-get, for install/remove/upgrade commands the user visible behaviour is the same, there are some subtleties to what is going on inside the black box.
+AWS have a good write up on the finer details <https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/>.
+It is expected for the foreseeable further both will be available.    
+    
 # Commands which end in .sh
 These are not strictly commands but are instead scripts, scripts are a series of commands which automate tasks for you, commonly tools which we install from git such as Kiauh or Klipper itself provide scripts to simplify initial setup.
 Commonly these commands will have the form `./toolname/script.sh` this is running a script called script.sh which is located in a folder called toolname under the current working folder.
