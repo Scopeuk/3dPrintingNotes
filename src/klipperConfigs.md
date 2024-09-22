@@ -88,8 +88,8 @@ Normally you should not need to edit after the SAVE_CONFIG line but under some e
 
 
 # Terrifyingly complex looking stuff full of {}'s and %'s
-This is almost certainly some sort of G Code macro, these can be quite complex and are fundamentally a programming language. Most users will simply use macros created for a specific job.
-You can confirm this by scrolling to up from the section until you fins the section heading, it should start \[gcode_macro.
+This is almost certainly some sort of G Code macro, these can be quite complex and are fundamentally a programming language. Most users will simply use macros created for a specific job by someone else.
+You can confirm you are looking at one of these section by scrolling up from the section until you find the section heading, it should start \[gcode_macro.
 These are not documented here the Klipper documentation starts at <https://www.Klipper3d.org/Config_Reference.html?h=macro#g-code-macros-and-events> and the details of all the content can be found at <https://www.Klipper3d.org/Command_Templates.html>.
 This is an advanced topic and should not be needed to get a printer started outside of pre-defined macros supplied by the printer designer or manufacturer.
 
