@@ -1,5 +1,5 @@
 # Getting Started With printer.cfg
-Klipper configuration files can appear to be intimidating at a first attempt. The files however are laid out in sections with each section self-contained. As such the sections can be dealt with one at a time and it is not necessary to understand everything to get started. This is not aimed at walking you through creating a configuration file from scratch but acts a guide to how to read an existing file and file the details of what each section does.
+Klipper configuration files can appear to be intimidating at a first attempt. The files however are laid out in sections with each section self-contained. As such the sections can be dealt with one at a time and it is not necessary to understand everything to get started. This is not aimed at walking you through creating a configuration file from scratch but acts a guide to how to read an existing file and the details of what each section does.
 ## Before We Start
 Changes to your printer.cfg file can stop your printer working, before making any changes take a backup copy of the file. In the worst case you can always swap back to the backup.
 
