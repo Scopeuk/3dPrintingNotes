@@ -20,6 +20,10 @@ There are two main ways of connecting the diag pin to the MCU,
 1. The board provides dedicated pins on the MCU permanently connected to the motor driver diag pins.
 2. The board provides jumpers which allow the diag pins to be optionally connected to the MCU, typically in this configuration the jumpers will connect the diag pin to the associated end stop input.
 
+## External Drivers / Step Sticks
+Some external drivers, have a jumper or switch to connect the diag pin of the tmc driver to the step stick socket the driver is in.
+In order to use sensorless homing this jumper must be installed or the switch must be switched on.
+
 Some older boards did not provide a method for connecting to the diag pin and this had to be done with jumper wires, modern controller boards have moved away from this.
 
 
