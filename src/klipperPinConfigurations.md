@@ -65,9 +65,10 @@ Support for pull down resistors is limited. It is much more common to use pull u
 
 ## Combing Modifiers
 The ! modifier can be combined with either ^ or ~ on an input pin (one taking information from the world like an end stop switch).
-adding both ^! or ~! will cause both effects to happen
+adding both ^! or ~! will cause both effects to happen.
+When combining operators the order is pull (up or down, ^ or ~) and then the inversion operator !.   
 
 | Modifier | Effect | 
 | ------------ | ------------ |
 | ^! | inverted and pull up enabled |
-| ^! | inverted and pull down enabled |
+| ~! | inverted and pull down enabled |
