@@ -7,7 +7,7 @@ There are two basic errors that come up, they have very similar display error me
    
 ## Symptoms
 Klipper log displays "Failed to import \`numpy\` module".   
-This will be followed by a message stating make sure it is installed via pip install this message will also include a path to pip something like ```'~/klippy-end/bin/pip'```
+This will be followed by a message stating make sure it is installed via pip install this message will also include a path to pip something like ```'~/klippy-env/bin/pip'```
 There are two root causes of this:    
 1). numpy is not installed.   
 2). A library upon which numpy depends (lib blas) is not installed.
@@ -19,7 +19,7 @@ It is not uncommon to need to fix both of these issues depending upon how you in
 ### Issue 1
 To fix issue 1 we install numpy this should be done using the pip path given in the Klipper error message.   
 The command to install will look like the command below with the path modified to match your Klipper error message.
-```~/klippy-end/bin/pip install numpy```   
+```~/klippy-env/bin/pip install numpy```   
 This command can take a long time to run as various things need to be built. If this command returns a message which states "Requirements already satisfied" numpy is already installed and you actually have issue 2.
 
 ### Issue 2
