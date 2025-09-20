@@ -36,7 +36,9 @@ Mellow wiki
 <https://mellow.klipper.cn/#/README>   
 
 Big Tree wiki   
-<https://bttwiki.com/>   
+<https://bttwiki.com/> 
+Big tree beta wiki
+<https://bigtreetech-beta.github.io/docs/>
 
 # Layout of Pin Diagrams
 These Diagrams frequently consist of a series of tables around a picture or render of the board.
