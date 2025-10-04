@@ -6,3 +6,4 @@
 | Voron Initial Startup Checks | Textual | <https://docs.vorondesign.com/build/startup/> |
 | Git Guide | Textual | <https://glasskube.dev/guides/git/> |
 | SS64 list of linux commands and there use | Textual | <https://ss64.com/bash/> |
+| Filament colour lookup | Website | <https://filamentcolors.xyz/> |
