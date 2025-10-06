@@ -37,3 +37,18 @@ The threshold must be tuned per machine, there are many factors which affect thi
 
 Once the TMC section has been added a new "virtual pin" becomes available within Klipper the name of this is given in the Klipper section but will be similar to "tmc2130_stepper_x:virtual_endstop" where the TMC model number and stepper name with change with the associated section in the configuration.
 This new virtual pin can be used as the end stop pin in the normal stepper section for the axis.
+
+
+# Common Issues
+The following are a list of issues which have been observed setting up sensorless homing which make it "not work" in decending order of how often they have come up.
+1. Missing diag jumpers   
+		see [How is it setup, electrically](#electrically)   
+2. Missing jumper/switch on external drivers   
+		see [External Drivers / Step Sticks](#external-drivers--step-sticks)
+3. Incorrect diag pin set in tmc driver configuration section   
+		see [Software](#software)
+4. Endstop pin for stepper not set to correct tmc driver virtual endstop   
+		see [Software](#software)
+5. Sensitivity too high.   
+		This is rare but if the sensitivity is high enough between klipper and the driver the pulse to stop the driver can be missed causing the homing to run until crash, it is suspected that this is caused by the pulse happening too early for klipper to catch but is not confirmed at this time.   
+		If your starting tuning and having issues getting the device to stop it is worth trying a low sensitivity as well as high ones.
