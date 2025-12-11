@@ -1,11 +1,11 @@
 # Getting Started With printer.cfg
-Klipper configuration files can appear to be intimidating at a first attempt. The files however are laid out in sections with each section self-contained. As such the sections can be dealt with one at a time and it is not necessary to understand everything to get started. This is not aimed at walking you through creating a configuration file from scratch but acts a guide to how to read an existing file and the details of what each section does.
+Klipper configuration files can appear to be intimidating at a first attempt. The files however are laid out in sections with each section self-contained. As such the sections can be dealt with one at a time and it is not necessary to understand everything to get started. This guide is not aimed at walking you through creating a configuration file from scratch but acts a guide to how to read an existing file and the details of what each section does.
 ## Before We Start
 Changes to your printer.cfg file can stop your printer working, before making any changes take a backup copy of the file. In the worst case you can always swap back to the backup.
 
 ## What is printer.cfg
 printer.cfg is the configuration file Klipper reads when it first starts. This configuration file tells Klipper how your printer is configured. This is how Klipper can tell apart an Ender 3 and a Voron 2.4 (although Klipper really doesn’t care).
-It is responsible for documenting the physical configuration of the machine, for instance it's dimensions and kinematics, electrical setup like the type of stepper drivers used and how they are wired up on the controls board, and finally any Klipper settings like [arc support](https://www.Klipper3d.org/Config_Reference.html?h=arc#gcode_arcs)  or the [virtual sd card](https://www.Klipper3d.org/Config_Reference.html?h=virtu#virtual_sdcard).
+It is responsible for documenting the physical configuration of the machine, for instance its dimensions and kinematics, and electrical setup for instance the type of stepper drivers used and how they are wired up on the control board, and finally any Klipper settings like [arc support](https://www.Klipper3d.org/Config_Reference.html?h=arc#gcode_arcs)  or the [virtual sd card](https://www.Klipper3d.org/Config_Reference.html?h=virtu#virtual_sdcard).
 
 ## CASE SeNsItIvItY
 All Klipper configuration files are case sensitive. What this means is that all of the following names are different.   
