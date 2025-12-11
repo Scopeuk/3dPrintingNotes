@@ -10,7 +10,5 @@ limit-results = 15
 
 [preprocessor.pagetoc]
 [output.html]
-additional-css = ["theme/pagetoc.css"]
-additional-js  = ["theme/pagetoc.js"]
 git-repository-url = "https://github.com/Scopeuk/3dPrintingNotes"
 site-url = "/3dPrintingNotes/"
